@@ -26,7 +26,7 @@ export function Home() {
             </div>
           </div>
           <div className={styles.illustration}>
-            <img src="../public/images/templates/seguranca-trabalho.png" alt="Seguranca" style={{ width: '700px', height: '500px', borderRadius: '10%' }} />
+            <img src="/images/templates/seguranca-trabalho.png" alt="Seguranca" style={{ width: '700px', height: '500px', borderRadius: '10%' }} />
           </div>
         </div>
       </section>
