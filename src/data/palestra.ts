@@ -119,7 +119,7 @@ export const palestras: Palestra[] = [
       {
         name: 'Kely Cristina dos Santos',
         bio: 'Sem mini currículo por enquanto**',
-        image: 'https://images.pexels.com/photos/4872548/pexels-photo-4872548.jpeg?w=400&h=400&fit=crop'
+        image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?w=400&h=400&fit=crop'
       },
       {
         name: 'Camila Gonçalves Rodrigues',

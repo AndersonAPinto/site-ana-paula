@@ -10,7 +10,7 @@ export function SpeakerCard({ name, bio, image }: SpeakerCardProps) {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
-        <img src={image} alt={name} style={{ objectFit: 'cover' }}/>
+        <img src={image} alt={name} />
         <div className={styles.overlay}></div>
       </div>
       <div className={styles.content}>
