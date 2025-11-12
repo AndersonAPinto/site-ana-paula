@@ -133,7 +133,7 @@
 }
 
 .btnInscription,
-.btnZoom {
+.btnCollab {
   display: inline-flex;
   align-items: center;
   gap: var(--spacing-2);
@@ -155,13 +155,13 @@
   box-shadow: 0 8px 16px rgba(255, 140, 0, 0.3);
 }
 
-.btnZoom {
+.btnCollab {
   background: rgba(255, 255, 255, 0.2);
   color: white;
   border: 2px solid white;
 }
 
-.btnZoom:hover {
+.btnCollab:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
 }
@@ -340,7 +340,7 @@
   }
 
   .btnInscription,
-  .btnZoom {
+  .btnCollab {
     width: 100%;
     justify-content: center;
   }

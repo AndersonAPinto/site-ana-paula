@@ -10,7 +10,7 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link to="/" className={styles.logo}>
-          <img src="/senac_logo.png" alt="Senac EAD" />
+          <img src="/senac_logo.png" alt="Senac EAD" style={{ borderRadius: '10%' }} />
           <span>Senac EAD</span>
         </Link>
 

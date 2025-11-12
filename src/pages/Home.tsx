@@ -12,7 +12,7 @@ export function Home() {
             <div className={styles.badge}>Novembro de 2025</div>
             <h1>Semana de Palestras</h1>
             <p className={styles.subtitle}>
-              Celebrando o Dia do Profissional Técnico em Segurança do Trabalho
+              Celebrando o Dia do Profissional de Segurança do Trabalho
             </p>
             <p className={styles.description}>
               Uma jornada de 4 dias com especialistas discutindo temas essenciais para
@@ -26,7 +26,7 @@ export function Home() {
             </div>
           </div>
           <div className={styles.illustration}>
-            <Shield size={200} color="var(--secondary)" />
+            <img src="../src/images/templates/seguranca-trabalho.png" alt="Seguranca" style={{ width: '700px', height: '500px', borderRadius: '10%' }} />
           </div>
         </div>
       </section>
@@ -51,7 +51,7 @@ export function Home() {
             </div>
             <div className={styles.card}>
               <div className={styles.icon}>
-                <Shield size={40} />
+               <Shield size={40} />
               </div>
               <h3>Conteúdo Relevante</h3>
               <p>Tópicos atuais e práticos para sua evolução profissional.</p>
@@ -92,7 +92,7 @@ export function Home() {
             <h3>Informações Importantes</h3>
             <ul>
               <li>
-                <strong>Formato:</strong> Web palestras ao vivo via Zoom
+                <strong>Formato:</strong> Web palestras ao vivo via Collab
               </li>
               <li>
                 <strong>Data:</strong> 24 a 27 de novembro de 2025

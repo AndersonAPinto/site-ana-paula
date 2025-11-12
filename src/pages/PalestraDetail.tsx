@@ -51,7 +51,7 @@ export function PalestraDetail() {
                 <Video size={20} />
                 <div>
                   <strong>Plataforma</strong>
-                  <p>Zoom</p>
+                  <p>Collab</p>
                 </div>
               </div>
               <div className={styles.infoItem}>
@@ -74,12 +74,12 @@ export function PalestraDetail() {
                 <ExternalLink size={18} />
               </a>
               <a
-                href={palestra.zoomLink}
+                href={palestra.collabLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.btnZoom}
+                className={styles.btnCollab}
               >
-                Link do Zoom
+                Acessar a palestra
                 <Video size={18} />
               </a>
             </div>

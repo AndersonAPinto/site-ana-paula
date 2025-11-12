@@ -15,7 +15,7 @@ export interface Palestra {
   time: string;
   speakers: Speaker[];
   inscriptionLink: string;
-  zoomLink: string;
+  collabLink: string;
 }
 
 export const palestras: Palestra[] = [
@@ -30,23 +30,23 @@ export const palestras: Palestra[] = [
     time: '19h às 20h',
     speakers: [
       {
-        name: 'Ana Paula Viana',
-        bio: 'Especialista em Segurança do Trabalho com 15 anos de experiência. Certificada em Programas de Gestão de Segurança e consultora em Cultura de Prevenção.',
-        image: 'https://images.pexels.com/photos/36745/activity-beautiful-blonde-blur.jpg?w=400&h=400&fit=crop'
+        name: 'Tamara Martinez Schumache',
+        bio: 'Tutora do Senac EAD, técnica em Recursos Humanos, bacharel em Ciências Contábeis, especialista em Gestão de Pessoas e docência para ensino técnico e superior. Com experiência nas áreas administrativa, contábil, departamento pessoal e RH. Mãe de 3 doguinhos e de uma bebê breve, que trouxe um olhar mais humanizado para o tema do luto no ambiente de trabalho. (a última parte apenas quando for possível ou pertinente).',
+        image: '../src/images/palestrantes/tamara.jpeg'
       },
       {
-        name: 'Roberto Silva',
-        bio: 'Engenheiro de Segurança com pós-graduação em Gestão de Riscos. Responsável por implementação de programas preventivos em multinacionais.',
-        image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?w=400&h=400&fit=crop'
+        name: 'Alini Silva da Veiga Piovesani',
+        bio: 'Técnica em Contabilidade (ET José Feijó - Porto Alegre/RS), Bacharel em Secretariado Executivo Trilíngue (ULBRA Canoas - RS). Pós-graduada em Docência da Educação Profissional e Ensino Técnico (Faculdade Anhanguera) e Pós-Graduada em Gestão Estratégica de Pessoas (ULBRA Canoas-RS). Experiência de 18 anos como Secretária Executiva, experiência de 6 anos como professora/palestrante, e, atualmente, tutora do curso técnico em Secretariado do Senac EAD.',
+        image: '../src/images/palestrantes/alini.jpeg'
       },
       {
-        name: 'Carla Mendes',
-        bio: 'Psicóloga organizacional especializada em comportamento seguro. Desenvolvedora de treinamentos corporativos inovadores.',
+        name: 'João Augusto**',
+        bio: 'Atua como tutor do Senac EAD, no curso Técnico em Segurança do Trabalho. Graduado em Farmácia e em Engenharia Química. É pós-graduado em Engenharia de Segurança do Trabalho e em Docência do Ensino Técnico. Possui mestrado e doutorado na área de Engenharia de Materiais.',
         image: 'https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?w=400&h=400&fit=crop'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example1/viewform',
-    zoomLink: 'https://zoom.us/j/example1'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
   },
   {
     id: 2,
@@ -59,23 +59,23 @@ export const palestras: Palestra[] = [
     time: '19h às 20h',
     speakers: [
       {
-        name: 'Caroline Fraga',
-        bio: 'Consultora em Inclusão e Acessibilidade com expertise em adaptação de espaços laborais. Autora de publicações sobre inclusão no mercado de trabalho.',
-        image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?w=400&h=400&fit=crop'
+        name: 'Jaqueline Patricia Silveira',
+        bio: 'Orientadora Educacional do curso técnico em RH do Senac EAD. Graduada em Administração, possui mestrado e doutorado em Desenvolvimento Rural. Há mais de 10 anos atua na Educação a Distância e, ao longo da sua trajetória, trabalhou com estratégia e inovação em gestão de pessoas no serviço público.',
+        image: '../src/images/palestrantes/jaqueline.jpeg'
       },
       {
-        name: 'Marcus Oliveira',
-        bio: 'Profissional em Recursos Humanos especializado em políticas inclusivas. Certificado em Gestão da Diversidade e Inclusão.',
-        image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?w=400&h=400&fit=crop'
+        name: 'Vinícius Mitto Navarro',
+        bio: 'Tutor do Curso Técnico em Secretariado do SENAC RS EAD e arquivista do Arquivo Público do RS. Graduado em Arquivologia pela UFRGS, com pós-graduação em Gestão em Arquivos pela UFSM e Formação Pedagógica pelo IFRS. Possui mais de dez anos de experiência docente, para concursos públicos, tutoria à distância e no ensino de Secretariado. Atua há mais de vinte anos na área dos arquivos, prestando consultoria e atualmente atuando em preservação dos documentos históricos do Poder Executivo gaúcho. Presidiu a Associação dos Arquivistas do RS de 2022 a 2024.s',
+        image: '../src/images/palestrantes/vinicius.jpeg'
       },
       {
-        name: 'Juliana Costa',
-        bio: 'Especialista em Acessibilidade com formação em Segurança do Trabalho. Responsável por auditorias de acessibilidade em empresas.',
+        name: 'Cesar Bresolin',
+        bio: 'Sem mini currículo por enquanto**',
         image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?w=400&h=400&fit=crop'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example2/viewform',
-    zoomLink: 'https://zoom.us/j/example2'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
   },
   {
     id: 3,
@@ -88,23 +88,23 @@ export const palestras: Palestra[] = [
     time: '19h às 20h',
     speakers: [
       {
-        name: 'Denise Serqueira',
-        bio: 'Psicóloga clínica com especialização em Saúde Mental Ocupacional. Pesquisadora sobre Síndrome de Burnout e qualidade de vida no trabalho.',
+        name: 'Kely Cristina dos Santos',
+        bio: 'Sem mini currículo por enquanto**',
         image: 'https://images.pexels.com/photos/1181387/pexels-photo-1181387.jpeg?w=400&h=400&fit=crop'
       },
       {
-        name: 'Felipe Ribeiro',
-        bio: 'Médico do Trabalho especializado em Saúde Mental Ocupacional. Responsável por programas de bem-estar em grandes corporações.',
+        name: 'Lucelia de Souza Carlos',
+        bio: 'Carreira desenvolvida em empresas de pequeno, médio e grande porte, dispõe de mais de 18 anos de experiência na gestão de pessoas e processos. Coautora do livro “RH e o Novo Normal nas Organizações”. Membro da ABRH-RS. Docente dos cursos técnicos de Secretariado e Recursos Humanos no SENAC EAD. Atualmente cursa uma segunda graduação, a faculdade de Psicologia. É Especialista em Gestão de Pessoas e Docência do Ensino Profissional. Possui MBA Executivo Gestão Empresarial. Secretária Executiva Trilíngue de formação, dispõe de qualificações complementares nas áreas de Coaching Profissional, Analista Comportamental (DISC), PNL e Coordenação de Grupos. Complementam a sua caminhada até o momento, a atuação como consultora organizacional e desenvolvimento humano na Organizzare - Desenvolvimento Integrado de Pessoas.',
         image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?w=400&h=400&fit=crop'
       },
       {
-        name: 'Beatriz Alves',
-        bio: 'Especialista em Gestão de Recursos Humanos com focus em cultura organizacional. Consultora em programas de bem-estar corporativo.',
+        name: 'Marcia Cristiana Closs',
+        bio: 'Atua como tutora do Senac EAD, no curso Técnico em Segurança do Trabalho. Graduada em Sociologia e Técnica em Segurança do Trabalho. É pós-graduada e Gestão de Projetos, Instrutora de NR11 Empilhadeiras, NR 35 Trabalho em altura. Atua na segurança do trabalho a 23 anos.',
         image: 'https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?w=400&h=400&fit=crop'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example3/viewform',
-    zoomLink: 'https://zoom.us/j/example3'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
   },
   {
     id: 4,
@@ -117,22 +117,22 @@ export const palestras: Palestra[] = [
     time: '19h às 20h',
     speakers: [
       {
-        name: 'Gabriela Teixeira',
-        bio: 'Fisioterapeuta especializada em Ergonomia e Prevenção de Lesões. Desenvolvimento de programas de ginástica laboral e postura.',
+        name: 'Kely Cristina dos Santos',
+        bio: 'Sem mini currículo por enquanto**',
         image: 'https://images.pexels.com/photos/4872548/pexels-photo-4872548.jpeg?w=400&h=400&fit=crop'
       },
       {
-        name: 'Thiago Martins',
-        bio: 'Engenheiro de Saúde e Segurança especialista em Ergonomia. Consultor em design de postos de trabalho.',
+        name: 'Camila Gonçalves Rodrigues',
+        bio: 'Profissional da área de secretariado com mais de 25 anos de experiência. Atuou em instituições de ensino e em empresas de grande porte.  Bacharel em Secretariado Executivo Bilíngue, com Especialização em Produção e Revisão Textual e Especialização em Docência no Ensino Técnico. Atualmente, é docente do Curso Técnico em Secretariado do Senac EAD.',
         image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?w=400&h=400&fit=crop'
       },
       {
-        name: 'Amanda Souza',
-        bio: 'Técnica em Segurança do Trabalho especializada em Ergonomia e Ginástica Laboral. Certificada em ISO 11228.',
+        name: 'Roberto Alexandre Pereira Mopert',
+        bio: 'Sem mini currículo por enquanto**',
         image: 'https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?w=400&h=400&fit=crop'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example4/viewform',
-    zoomLink: 'https://zoom.us/j/example4'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
   }
 ];
