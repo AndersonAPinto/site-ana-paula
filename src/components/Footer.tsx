@@ -6,7 +6,7 @@ export function Footer() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div>
-            <img src="/public/senac_logo.png" alt="Senac EAD" style={{ width: '100px', height: '100px', borderRadius: '10%' }}/>
+            <img src="/senac_logo.png" alt="Senac EAD" style={{ width: '100px', height: '100px', borderRadius: '10%' }}/>
           </div>
           <div className={styles.section}>
             <h4>Sobre a Semana</h4>
