@@ -32,12 +32,12 @@ export const palestras: Palestra[] = [
       {
         name: 'Tamara Martinez Schumache',
         bio: 'Tutora do Senac EAD, técnica em Recursos Humanos, bacharel em Ciências Contábeis, especialista em Gestão de Pessoas e docência para ensino técnico e superior. Com experiência nas áreas administrativa, contábil, departamento pessoal e RH. Mãe de 3 doguinhos e de uma bebê breve, que trouxe um olhar mais humanizado para o tema do luto no ambiente de trabalho. (a última parte apenas quando for possível ou pertinente).',
-        image: '../src/images/palestrantes/tamara.jpeg'
+        image: '../public/images/palestrantes/tamara.jpeg'
       },
       {
         name: 'Alini Silva da Veiga Piovesani',
         bio: 'Técnica em Contabilidade (ET José Feijó - Porto Alegre/RS), Bacharel em Secretariado Executivo Trilíngue (ULBRA Canoas - RS). Pós-graduada em Docência da Educação Profissional e Ensino Técnico (Faculdade Anhanguera) e Pós-Graduada em Gestão Estratégica de Pessoas (ULBRA Canoas-RS). Experiência de 18 anos como Secretária Executiva, experiência de 6 anos como professora/palestrante, e, atualmente, tutora do curso técnico em Secretariado do Senac EAD.',
-        image: '../src/images/palestrantes/alini.jpeg'
+        image: '../public/images/palestrantes/alini.jpeg'
       },
       {
         name: 'João Augusto**',
@@ -61,12 +61,12 @@ export const palestras: Palestra[] = [
       {
         name: 'Jaqueline Patricia Silveira',
         bio: 'Orientadora Educacional do curso técnico em RH do Senac EAD. Graduada em Administração, possui mestrado e doutorado em Desenvolvimento Rural. Há mais de 10 anos atua na Educação a Distância e, ao longo da sua trajetória, trabalhou com estratégia e inovação em gestão de pessoas no serviço público.',
-        image: '../src/images/palestrantes/jaqueline.jpeg'
+        image: '../public/images/palestrantes/jaqueline.jpeg'
       },
       {
         name: 'Vinícius Mitto Navarro',
         bio: 'Tutor do Curso Técnico em Secretariado do SENAC RS EAD e arquivista do Arquivo Público do RS. Graduado em Arquivologia pela UFRGS, com pós-graduação em Gestão em Arquivos pela UFSM e Formação Pedagógica pelo IFRS. Possui mais de dez anos de experiência docente, para concursos públicos, tutoria à distância e no ensino de Secretariado. Atua há mais de vinte anos na área dos arquivos, prestando consultoria e atualmente atuando em preservação dos documentos históricos do Poder Executivo gaúcho. Presidiu a Associação dos Arquivistas do RS de 2022 a 2024.s',
-        image: '../src/images/palestrantes/vinicius.jpeg'
+        image: '../public/images/palestrantes/vinicius.jpeg'
       },
       {
         name: 'Cesar Bresolin',
