@@ -26,7 +26,7 @@ export function Home() {
             </div>
           </div>
           <div className={styles.illustration}>
-            <img src="/images/templates/seguranca-trabalho.png" alt="Seguranca" style={{ width: '700px', height: '500px', borderRadius: '10%' }} />
+            <img src="/images/templates/profissionais-seguranca-trabalho.jpeg" alt="Seguranca" style={{ width: '480px', height: '480px', borderRadius: '50%' }} />
           </div>
         </div>
       </section>
@@ -40,7 +40,7 @@ export function Home() {
                 <Users size={40} />
               </div>
               <h3>Experts Renomados</h3>
-              <p>Palestras conduzidas por profissionais especializados em segurança do trabalho.</p>
+              <p>Palestras conduzidas por profissionais especializados.</p>
             </div>
             <div className={styles.card}>
               <div className={styles.icon}>
