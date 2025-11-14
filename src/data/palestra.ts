@@ -27,7 +27,7 @@ export const palestras: Palestra[] = [
     month: 11,
     theme: 'Cultura de Prevenção e Comportamento Seguro',
     description: 'Nesta palestra exploraremos como desenvolver uma cultura organizacional robusta focada em prevenção de acidentes. Discutiremos as melhores práticas para promover comportamentos seguros entre todos os colaboradores, transformando a segurança em um valor central da empresa.',
-    time: '19h às 20h',
+    time: '20h às 21h',
     speakers: [
       {
         name: 'Tamara Martinez Schumache',
@@ -40,9 +40,9 @@ export const palestras: Palestra[] = [
         image: '/images/palestrantes/alini.jpeg'
       },
       {
-        name: 'João Augusto**',
+        name: 'João Augusto Osório Brandão',
         bio: 'Atua como tutor do Senac EAD, no curso Técnico em Segurança do Trabalho. Graduado em Farmácia e em Engenharia Química. É pós-graduado em Engenharia de Segurança do Trabalho e em Docência do Ensino Técnico. Possui mestrado e doutorado na área de Engenharia de Materiais.',
-        image: 'https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?w=400&h=400&fit=crop'
+        image: '/images/palestrantes/jose_augusto.jpeg'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example1/viewform',
@@ -56,7 +56,7 @@ export const palestras: Palestra[] = [
     month: 11,
     theme: 'Inclusão no Ambiente de Trabalho',
     description: 'Descobra como criar um ambiente inclusivo onde todos os colaboradores, incluindo pessoas com deficiência, possam trabalhar com segurança e dignidade. Abordaremos adaptações necessárias, legislação e o impacto positivo da inclusão.',
-    time: '19h às 20h',
+    time: '20h às 21h',
     speakers: [
       {
         name: 'Jaqueline Patricia Silveira',
@@ -69,9 +69,9 @@ export const palestras: Palestra[] = [
         image: '/images/palestrantes/vinicius.jpeg'
       },
       {
-        name: 'Cesar Bresolin',
-        bio: 'Sem mini currículo por enquanto**',
-        image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?w=400&h=400&fit=crop'
+        name: 'César Bresolin Salvaro',
+        bio: 'Professor/Tutor de Segurança no trabalho; Logística; Administração e Contabilidade. Com experiência em todas estas áreas, seja no ramo da indústria, do comércio e escolar. Doutorando em Educação como aluno especial, Mestrado em Educação, Especialização em Docência na Educação Profissional e Tecnológica; Graduado em Administração e Pedagogia.',
+        image: '/images/palestrantes/cesar_bresolin.jpeg'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example2/viewform',
@@ -85,22 +85,22 @@ export const palestras: Palestra[] = [
     month: 11,
     theme: 'Riscos Psicossociais no Ambiente Corporativo',
     description: 'Entenda os principais riscos psicossociais que afetam a saúde mental dos colaboradores. Analisaremos estresse ocupacional, assédio moral e as estratégias para criar um ambiente saudável e produtivo.',
-    time: '19h às 20h',
+    time: '20h às 21h',
     speakers: [
       {
         name: 'Kely Cristina dos Santos',
-        bio: 'Sem mini currículo por enquanto**',
-        image: 'https://images.pexels.com/photos/1181387/pexels-photo-1181387.jpeg?w=400&h=400&fit=crop'
+        bio: 'Atua como tutora do SENAC EAD, no curso de Técnico em Recursos Humanos. Graduada em Administração, especialista em Gestão de Pessoas, em Docência do Ensino Técnico e Profissional, Psicopedagoga e Neuropsicopedagoga, Designer Instrucional e Mestranda em Educação Profissional e Tecnológica. Atua há 20 anos na área de RH, com foco nas áreas de Captação, Desenvolvimento e Manutenção de Talentos, experiência de 15 anos na área da docência no ensino técnico e superior.',
+        image: '/images/palestrantes/kely_cristina.jpg'
       },
       {
-        name: 'Lucelia de Souza Carlos',
-        bio: 'Carreira desenvolvida em empresas de pequeno, médio e grande porte, dispõe de mais de 18 anos de experiência na gestão de pessoas e processos. Coautora do livro “RH e o Novo Normal nas Organizações”. Membro da ABRH-RS. Docente dos cursos técnicos de Secretariado e Recursos Humanos no SENAC EAD. Atualmente cursa uma segunda graduação, a faculdade de Psicologia. É Especialista em Gestão de Pessoas e Docência do Ensino Profissional. Possui MBA Executivo Gestão Empresarial. Secretária Executiva Trilíngue de formação, dispõe de qualificações complementares nas áreas de Coaching Profissional, Analista Comportamental (DISC), PNL e Coordenação de Grupos. Complementam a sua caminhada até o momento, a atuação como consultora organizacional e desenvolvimento humano na Organizzare - Desenvolvimento Integrado de Pessoas.',
-        image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?w=400&h=400&fit=crop'
+        name: 'Lucelia Souza',
+        bio: 'Docente dos cursos técnicos de Secretariado e Recursos Humanos no SENAC EAD. Atualmente cursa uma segunda graduação, a faculdade de Psicologia. É Especialista em Gestão de Pessoas e Docência do Ensino Profissional. Possui MBA Executivo Gestão Empresarial. Secretária Executiva Trilíngue de formação, dispõe de qualificações complementares nas áreas de Coaching Profissional, Analista Comportamental (DISC), PNL e Coordenação de Grupos. Coautora do livro “RH e o Novo Normal nas Organizações”.',
+        image: '/images/palestrantes/lucelia_souza.jpeg'
       },
       {
         name: 'Marcia Cristiana Closs',
         bio: 'Atua como tutora do Senac EAD, no curso Técnico em Segurança do Trabalho. Graduada em Sociologia e Técnica em Segurança do Trabalho. É pós-graduada e Gestão de Projetos, Instrutora de NR11 Empilhadeiras, NR 35 Trabalho em altura. Atua na segurança do trabalho a 23 anos.',
-        image: 'https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?w=400&h=400&fit=crop'
+        image: '/images/palestrantes/marcia_cristiana.jpeg'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example3/viewform',
@@ -114,22 +114,22 @@ export const palestras: Palestra[] = [
     month: 11,
     theme: 'Postura no Ambiente de Trabalho: Ergonomia e Saúde',
     description: 'Aprenda sobre a importância da postura correta e da ergonomia para prevenir lesões. Discutiremos exercícios preventivos, adaptação de postos de trabalho e o papel da ergonomia na segurança corporativa.',
-    time: '19h às 20h',
+    time: '20h às 21h',
     speakers: [
       {
         name: 'Kely Cristina dos Santos',
-        bio: 'Sem mini currículo por enquanto**',
-        image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?w=400&h=400&fit=crop'
+        bio: 'Atua como tutora do SENAC EAD, no curso de Técnico em Recursos Humanos. Graduada em Administração, especialista em Gestão de Pessoas, em Docência do Ensino Técnico e Profissional, Psicopedagoga e Neuropsicopedagoga, Designer Instrucional e Mestranda em Educação Profissional e Tecnológica. Atua há 20 anos na área de RH, com foco nas áreas de Captação, Desenvolvimento e Manutenção de Talentos, experiência de 15 anos na área da docência no ensino técnico e superior.',
+        image: '/images/palestrantes/kely_cristina.jpg'
       },
       {
         name: 'Camila Gonçalves Rodrigues',
         bio: 'Profissional da área de secretariado com mais de 25 anos de experiência. Atuou em instituições de ensino e em empresas de grande porte.  Bacharel em Secretariado Executivo Bilíngue, com Especialização em Produção e Revisão Textual e Especialização em Docência no Ensino Técnico. Atualmente, é docente do Curso Técnico em Secretariado do Senac EAD.',
-        image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?w=400&h=400&fit=crop'
+        image: '/images/palestrantes/camila_goncalves.png'
       },
       {
         name: 'Roberto Alexandre Pereira Mopert',
-        bio: 'Sem mini currículo por enquanto**',
-        image: 'https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?w=400&h=400&fit=crop'
+        bio: 'Foi soldado da Força Aérea Brasileira, na Base Aérea de Canoas/RS, serviu na Polícia da Aeronáutica e depois na direção do HACO. Trabalhou como Instrutor e consultor em cursos de Segurança do Trabalho, preparação e resposta a atendimento a Urgências e Emergências. Atuou como Enfermeiro de Urgência e Emergência no SAMU, na Ambulância de UTI Móvel.  Técnico de Segurança no Trabalho, pelo IPUC, graduado em Enfermagem pela Universidade Feevale, pós-graduado em Enfermagem do Trabalho e Gestão em Segurança do Trabalho, Enfermagem em Urgência e Emergência em Pediatria e Neonatologia , Enfermagem em Emergência Pré-Hospitalar e Desastres, Docência na Educação Profissional de Nível Técnico, Prevenção de Combate a Incêndios Florestais, Medidas de Combate a Incêndios e Desastres, Bombeiro Civil - Classe III, Técnico em Prevenção e Combate a Incêndio.  Atualmente é tutor do Senac EAD, no curso Técnico em Segurança do Trabalho e acadêmico de Medicina, no 3° ano.',
+        image: '/images/palestrantes/roberto_alexandre.jpg'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example4/viewform',

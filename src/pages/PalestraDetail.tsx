@@ -20,6 +20,33 @@ export function PalestraDetail() {
     );
   }
 
+  const getPalestraStatus = () => {
+    const hoje = new Date();
+    
+    // Para testes, descomente uma das linhas abaixo:
+    // const hoje = new Date('2025-11-24T12:00:00'); // Simula dia 24
+    // const hoje = new Date('2025-11-25T12:00:00'); // Simula dia 25
+    // const hoje = new Date('2025-11-26T12:00:00'); // Simula dia 26
+    // const hoje = new Date('2025-11-27T12:00:00'); // Simula dia 27
+    
+    // Normaliza a data de hoje (apenas ano, mês, dia)
+    const hojeData = new Date(hoje.getFullYear(), hoje.getMonth(), hoje.getDate());
+    
+    // Cria a data da palestra a partir da string (formato: '2025-11-24')
+    const [ano, mes, dia] = palestra.date.split('-').map(Number);
+    const palestraData = new Date(ano, mes - 1, dia);
+    
+    if (hojeData.getTime() < palestraData.getTime()) {
+      return 'before'; // Antes da palestra
+    } else if (hojeData.getTime() === palestraData.getTime()) {
+      return 'today'; // No dia da palestra
+    } else {
+      return 'after'; // Depois da palestra
+    }
+  };
+
+  const statusPalestra = getPalestraStatus();
+
   return (
     <div className={styles.detail}>
       <div className={styles.header}>
@@ -64,24 +91,33 @@ export function PalestraDetail() {
             </div>
 
             <div className={styles.cta}>
-              <a
-                href={palestra.inscriptionLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.btnInscription}
-              >
-                Se inscrever agora
-                <ExternalLink size={18} />
-              </a>
+              {statusPalestra === 'today' && (
               <a
                 href={palestra.collabLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.btnCollab}
+                className={styles.btnInscription}
               >
                 Acessar a palestra
+                <ExternalLink size={18} /> 
+              </a>
+              )}
+              {statusPalestra === 'after' && (
+              <a
+                href={palestra.inscriptionLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.btnCollab}
+              >
+                Assista a Gravação
                 <Video size={18} />
               </a>
+              )}
+              {statusPalestra === 'before' && (
+                <div className={styles.waitingMessage}>
+                  <p>A palestra será disponibilizada no dia {palestra.dateFormatted}</p>
+                </div>
+              )}
             </div>
           </div>
         </div>

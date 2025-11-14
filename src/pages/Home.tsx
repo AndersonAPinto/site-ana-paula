@@ -47,7 +47,7 @@ export function Home() {
                 <Calendar size={40} />
               </div>
               <h3>Flexibilidade de Horários</h3>
-              <p>Todas as palestras às 19h às 20h, facilitando sua participação.</p>
+              <p>Todas as palestras às 20h às 21h, facilitando sua participação.</p>
             </div>
             <div className={styles.card}>
               <div className={styles.icon}>
@@ -98,7 +98,7 @@ export function Home() {
                 <strong>Data:</strong> 24 a 27 de novembro de 2025
               </li>
               <li>
-                <strong>Horário:</strong> 19h às 20h (todos os dias)
+                <strong>Horário:</strong> 20h às 21h (todos os dias)
               </li>
               <li>
                 <strong>Público:</strong> Aberto para alunos e profissionais da área
