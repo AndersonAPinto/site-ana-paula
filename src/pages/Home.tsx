@@ -79,7 +79,7 @@ export function Home() {
                   <p className={styles.time}>{palestra.time}</p>
                   <p className={styles.speakers}>3 especialistas</p>
                 </div>
-                <ArrowRight size={20} className={styles.arrow} />
+                {/*<ArrowRight size={20} className={styles.arrow} />*/}
               </Link>
             ))}
           </div>

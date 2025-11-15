@@ -170,16 +170,16 @@
 
 .palestrasGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-8);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-3);
+  padding-top: var(--spacing-1);
 }
 
 .palestraCard {
   display: flex;
   align-items: center;
-  gap: var(--spacing-6);
   background: white;
-  padding: var(--spacing-6);
+  padding: var(--spacing-3);
   border-radius: var(--radius-lg);
   border: 1px solid var(--neutral-200);
   transition: all var(--transition-base);
