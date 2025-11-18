@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { Clock, Users, ArrowLeft, ExternalLink, Video } from 'lucide-react';
+import { Clock, Users, ArrowLeft, Video } from 'lucide-react';
 import { palestras } from '../data/palestra';
 import { SpeakerCard } from '../components/SpeakerCard';
 import styles from './PalestraDetail.module.css';
