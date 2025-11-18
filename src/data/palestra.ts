@@ -129,7 +129,7 @@ export const palestras: Palestra[] = [
       {
         name: 'Roberto Alexandre Pereira Mopert',
         bio: 'Profissional com sólida formação e experiência em Saúde, Segurança do Trabalho e Emergências. Foi Soldado da Força Aérea Brasileira (HACO e Polícia da Aeronáutica). Graduado em Enfermagem (Feevale), possui múltiplas pós-graduações, incluindo Enfermagem do Trabalho, Gestão em Segurança e Urgência/Emergência (SAMU - UTI Móvel, Pediatria e Pré-Hospitalar/Desastres). Atuou como Instrutor/Consultor de Segurança e Bombeiro Civil (Classe III). Atualmente é Tutor do Senac EAD (Téc. Segurança do Trabalho) e acadêmico de Medicina.',
-        image: '/images/palestrantes/roberto_alexandre.jpg'
+        image: '/images/palestrantes/roberto_alexandre.png'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example4/viewform',
