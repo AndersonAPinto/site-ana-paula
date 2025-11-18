@@ -30,8 +30,8 @@ export const palestras: Palestra[] = [
     time: '20h às 21h',
     speakers: [
       {
-        name: 'Tamara Martinez Schumache',
-        bio: 'Tutora do Senac EAD, técnica em Recursos Humanos, bacharel em Ciências Contábeis, especialista em Gestão de Pessoas e docência para ensino técnico e superior. Com experiência nas áreas administrativa, contábil, departamento pessoal e RH. Mãe de 3 doguinhos e de uma bebê breve, que trouxe um olhar mais humanizado para o tema do luto no ambiente de trabalho. (a última parte apenas quando for possível ou pertinente).',
+        name: 'Tamara Martinez Schumacher',
+        bio: 'Tutora do Senac EAD, técnica em Recursos Humanos, bacharel em Ciências Contábeis, especialista em Gestão de Pessoas e docência para ensino técnico e superior. Com experiência nas áreas administrativa, contábil, departamento pessoal e RH. Mãe de 3 doguinhos e de uma bebê breve, que trouxe um olhar mais humanizado para o tema do luto no ambiente de trabalho.',
         image: '/images/palestrantes/tamara.jpeg'
       },
       {
@@ -90,7 +90,7 @@ export const palestras: Palestra[] = [
       {
         name: 'Kely Cristina dos Santos',
         bio: 'Atua como tutora do SENAC EAD, no curso de Técnico em Recursos Humanos. Graduada em Administração, especialista em Gestão de Pessoas, em Docência do Ensino Técnico e Profissional, Psicopedagoga e Neuropsicopedagoga, Designer Instrucional e Mestranda em Educação Profissional e Tecnológica. Atua há 20 anos na área de RH, com foco nas áreas de Captação, Desenvolvimento e Manutenção de Talentos, experiência de 15 anos na área da docência no ensino técnico e superior.',
-        image: '/images/palestrantes/kely_cristina.jpg'
+        image: '/images/palestrantes/kelly_cristina.jpeg'
       },
       {
         name: 'Lucelia Souza',
@@ -119,7 +119,7 @@ export const palestras: Palestra[] = [
       {
         name: 'Kely Cristina dos Santos',
         bio: 'Atua como tutora do SENAC EAD, no curso de Técnico em Recursos Humanos. Graduada em Administração, especialista em Gestão de Pessoas, em Docência do Ensino Técnico e Profissional, Psicopedagoga e Neuropsicopedagoga, Designer Instrucional e Mestranda em Educação Profissional e Tecnológica. Atua há 20 anos na área de RH, com foco nas áreas de Captação, Desenvolvimento e Manutenção de Talentos, experiência de 15 anos na área da docência no ensino técnico e superior.',
-        image: '/images/palestrantes/kely_cristina.jpg'
+        image: '/images/palestrantes/kelly_cristina.jpeg'
       },
       {
         name: 'Camila Gonçalves Rodrigues',
@@ -128,7 +128,7 @@ export const palestras: Palestra[] = [
       },
       {
         name: 'Roberto Alexandre Pereira Mopert',
-        bio: 'Foi soldado da Força Aérea Brasileira, na Base Aérea de Canoas/RS, serviu na Polícia da Aeronáutica e depois na direção do HACO. Trabalhou como Instrutor e consultor em cursos de Segurança do Trabalho, preparação e resposta a atendimento a Urgências e Emergências. Atuou como Enfermeiro de Urgência e Emergência no SAMU, na Ambulância de UTI Móvel.  Técnico de Segurança no Trabalho, pelo IPUC, graduado em Enfermagem pela Universidade Feevale, pós-graduado em Enfermagem do Trabalho e Gestão em Segurança do Trabalho, Enfermagem em Urgência e Emergência em Pediatria e Neonatologia , Enfermagem em Emergência Pré-Hospitalar e Desastres, Docência na Educação Profissional de Nível Técnico, Prevenção de Combate a Incêndios Florestais, Medidas de Combate a Incêndios e Desastres, Bombeiro Civil - Classe III, Técnico em Prevenção e Combate a Incêndio.  Atualmente é tutor do Senac EAD, no curso Técnico em Segurança do Trabalho e acadêmico de Medicina, no 3° ano.',
+        bio: 'Profissional com sólida formação e experiência em Saúde, Segurança do Trabalho e Emergências. Foi Soldado da Força Aérea Brasileira (HACO e Polícia da Aeronáutica). Graduado em Enfermagem (Feevale), possui múltiplas pós-graduações, incluindo Enfermagem do Trabalho, Gestão em Segurança e Urgência/Emergência (SAMU - UTI Móvel, Pediatria e Pré-Hospitalar/Desastres). Atuou como Instrutor/Consultor de Segurança e Bombeiro Civil (Classe III). Atualmente é Tutor do Senac EAD (Téc. Segurança do Trabalho) e acadêmico de Medicina.',
         image: '/images/palestrantes/roberto_alexandre.jpg'
       }
     ],

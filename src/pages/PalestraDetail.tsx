@@ -20,7 +20,7 @@ export function PalestraDetail() {
     );
   }
 
-  const getPalestraStatus = () => {
+  {/*const getPalestraStatus = () => {
     const hoje = new Date();
     
     // Para testes, descomente uma das linhas abaixo:
@@ -45,7 +45,7 @@ export function PalestraDetail() {
     }
   };
 
-  const statusPalestra = getPalestraStatus();
+  const statusPalestra = getPalestraStatus();*/}
 
   return (
     <div className={styles.detail}>
@@ -91,7 +91,25 @@ export function PalestraDetail() {
             </div>
 
             <div className={styles.cta}>
-              {statusPalestra === 'today' && (
+            {/*<a
+                href={palestra.inscriptionLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.btnInscription}
+              >
+                Se inscrever agora
+                <ExternalLink size={18} />
+              </a>*/}
+              <a
+                href={palestra.collabLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.btnCollab}
+              >
+                Acessar a palestra
+                <Video size={18} />
+              </a>
+              {/*{statusPalestra === 'today' && (
               <a
                 href={palestra.collabLink}
                 target="_blank"
@@ -117,7 +135,7 @@ export function PalestraDetail() {
                 <div className={styles.waitingMessage}>
                   <p>A palestra será disponibilizada no dia {palestra.dateFormatted}</p>
                 </div>
-              )}
+              )}*/}
             </div>
           </div>
         </div>
