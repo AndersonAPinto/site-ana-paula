@@ -100,15 +100,28 @@ export function PalestraDetail() {
                 Se inscrever agora
                 <ExternalLink size={18} />
               </a>*/}
-              <a
-                href={palestra.collabLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.btnCollab}
-              >
-                Acessar a palestra
-                <Video size={18} />
-              </a>
+              {palestra.day === 24 ? (
+                <a
+                  href={palestra.collabLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.btnCollab}
+                >
+                  Acessar a gravação
+                  <Video size={18} />
+                </a>
+              ) : (
+                <a
+                  href={palestra.collabLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.btnCollab}
+                >
+                  Acessar a palestra
+                  <Video size={18} />
+                </a>
+              )}
+
               {palestra.day === 24 && (
                 <a
                   href={palestra.collabLinkLibras}
@@ -116,7 +129,7 @@ export function PalestraDetail() {
                   rel="noopener noreferrer"
                   className={styles.btnCollabLibras}
                 >
-                  Acessar a palestra em Libras
+                  Acessar a gravação em Libras
                   <Video size={18} />
                 </a>
               )}
