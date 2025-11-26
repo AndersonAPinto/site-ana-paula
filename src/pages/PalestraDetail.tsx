@@ -91,7 +91,7 @@ export function PalestraDetail() {
             </div>
 
             <div className={styles.cta}>
-            {/*<a
+              {/*<a
                 href={palestra.inscriptionLink}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,6 +109,17 @@ export function PalestraDetail() {
                 Acessar a palestra
                 <Video size={18} />
               </a>
+              {palestra.day === 24 && (
+                <a
+                  href={palestra.collabLinkLibras}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.btnCollabLibras}
+                >
+                  Acessar a palestra em Libras
+                  <Video size={18} />
+                </a>
+              )}
               {/*{statusPalestra === 'today' && (
               <a
                 href={palestra.collabLink}
