@@ -16,6 +16,7 @@ export interface Palestra {
   speakers: Speaker[];
   inscriptionLink: string;
   collabLink: string;
+  collabLinkLibras: string;
 }
 
 export const palestras: Palestra[] = [
@@ -46,7 +47,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example1/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/collab/ui/session/playback/load/735f5c109e9e4df08c5db2e9ea85f18c',
+    collabLinkLibras: 'https://ca.bbcollab.com/collab/ui/session/playback/load/95a7f2f40f0a4563aead7cd003bb546d'
   },
   {
     id: 2,
@@ -75,7 +77,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example2/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
+    collabLinkLibras: ''
   },
   {
     id: 3,
@@ -104,7 +107,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example3/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
+    collabLinkLibras: ''
   },
   {
     id: 4,
@@ -133,6 +137,7 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example4/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
+    collabLinkLibras: ''
   }
 ];
