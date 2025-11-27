@@ -77,8 +77,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example2/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
-    collabLinkLibras: ''
+    collabLink: 'https://ca.bbcollab.com/collab/ui/session/playback/load/1cfaeb9f1a954ece80102637220042c6',
+    collabLinkLibras: 'https://ca.bbcollab.com/collab/ui/session/playback/load/d0906f3e375e4df7b11ddda0429d09f6'
   },
   {
     id: 3,
