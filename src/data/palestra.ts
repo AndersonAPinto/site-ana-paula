@@ -16,6 +16,7 @@ export interface Palestra {
   speakers: Speaker[];
   inscriptionLink: string;
   collabLink: string;
+  collabLinkLibras: string;
 }
 
 export const palestras: Palestra[] = [
@@ -30,8 +31,8 @@ export const palestras: Palestra[] = [
     time: '20h às 21h',
     speakers: [
       {
-        name: 'Tamara Martinez Schumache',
-        bio: 'Tutora do Senac EAD, técnica em Recursos Humanos, bacharel em Ciências Contábeis, especialista em Gestão de Pessoas e docência para ensino técnico e superior. Com experiência nas áreas administrativa, contábil, departamento pessoal e RH. Mãe de 3 doguinhos e de uma bebê breve, que trouxe um olhar mais humanizado para o tema do luto no ambiente de trabalho. (a última parte apenas quando for possível ou pertinente).',
+        name: 'Tamara Martinez Schumacher',
+        bio: 'Tutora do Senac EAD, técnica em Recursos Humanos, bacharel em Ciências Contábeis, especialista em Gestão de Pessoas e docência para ensino técnico e superior. Com experiência nas áreas administrativa, contábil, departamento pessoal e RH. Mãe de 3 doguinhos e de uma bebê breve, que trouxe um olhar mais humanizado para o tema do luto no ambiente de trabalho.',
         image: '/images/palestrantes/tamara.jpeg'
       },
       {
@@ -46,7 +47,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example1/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/collab/ui/session/playback/load/735f5c109e9e4df08c5db2e9ea85f18c',
+    collabLinkLibras: 'https://ca.bbcollab.com/collab/ui/session/playback/load/95a7f2f40f0a4563aead7cd003bb546d'
   },
   {
     id: 2,
@@ -75,7 +77,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example2/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/collab/ui/session/playback/load/1cfaeb9f1a954ece80102637220042c6',
+    collabLinkLibras: 'https://ca.bbcollab.com/collab/ui/session/playback/load/d0906f3e375e4df7b11ddda0429d09f6'
   },
   {
     id: 3,
@@ -90,7 +93,7 @@ export const palestras: Palestra[] = [
       {
         name: 'Kely Cristina dos Santos',
         bio: 'Atua como tutora do SENAC EAD, no curso de Técnico em Recursos Humanos. Graduada em Administração, especialista em Gestão de Pessoas, em Docência do Ensino Técnico e Profissional, Psicopedagoga e Neuropsicopedagoga, Designer Instrucional e Mestranda em Educação Profissional e Tecnológica. Atua há 20 anos na área de RH, com foco nas áreas de Captação, Desenvolvimento e Manutenção de Talentos, experiência de 15 anos na área da docência no ensino técnico e superior.',
-        image: '/images/palestrantes/kely_cristina.jpg'
+        image: '/images/palestrantes/kelly_cristina.jpeg'
       },
       {
         name: 'Lucelia Souza',
@@ -104,7 +107,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example3/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
+    collabLinkLibras: ''
   },
   {
     id: 4,
@@ -119,7 +123,7 @@ export const palestras: Palestra[] = [
       {
         name: 'Kely Cristina dos Santos',
         bio: 'Atua como tutora do SENAC EAD, no curso de Técnico em Recursos Humanos. Graduada em Administração, especialista em Gestão de Pessoas, em Docência do Ensino Técnico e Profissional, Psicopedagoga e Neuropsicopedagoga, Designer Instrucional e Mestranda em Educação Profissional e Tecnológica. Atua há 20 anos na área de RH, com foco nas áreas de Captação, Desenvolvimento e Manutenção de Talentos, experiência de 15 anos na área da docência no ensino técnico e superior.',
-        image: '/images/palestrantes/kely_cristina.jpg'
+        image: '/images/palestrantes/kelly_cristina.jpeg'
       },
       {
         name: 'Camila Gonçalves Rodrigues',
@@ -128,11 +132,12 @@ export const palestras: Palestra[] = [
       },
       {
         name: 'Roberto Alexandre Pereira Mopert',
-        bio: 'Foi soldado da Força Aérea Brasileira, na Base Aérea de Canoas/RS, serviu na Polícia da Aeronáutica e depois na direção do HACO. Trabalhou como Instrutor e consultor em cursos de Segurança do Trabalho, preparação e resposta a atendimento a Urgências e Emergências. Atuou como Enfermeiro de Urgência e Emergência no SAMU, na Ambulância de UTI Móvel.  Técnico de Segurança no Trabalho, pelo IPUC, graduado em Enfermagem pela Universidade Feevale, pós-graduado em Enfermagem do Trabalho e Gestão em Segurança do Trabalho, Enfermagem em Urgência e Emergência em Pediatria e Neonatologia , Enfermagem em Emergência Pré-Hospitalar e Desastres, Docência na Educação Profissional de Nível Técnico, Prevenção de Combate a Incêndios Florestais, Medidas de Combate a Incêndios e Desastres, Bombeiro Civil - Classe III, Técnico em Prevenção e Combate a Incêndio.  Atualmente é tutor do Senac EAD, no curso Técnico em Segurança do Trabalho e acadêmico de Medicina, no 3° ano.',
-        image: '/images/palestrantes/roberto_alexandre.jpg'
+        bio: 'Profissional com sólida formação e experiência em Saúde, Segurança do Trabalho e Emergências. Foi Soldado da Força Aérea Brasileira (HACO e Polícia da Aeronáutica). Graduado em Enfermagem (Feevale), possui múltiplas pós-graduações, incluindo Enfermagem do Trabalho, Gestão em Segurança e Urgência/Emergência (SAMU - UTI Móvel, Pediatria e Pré-Hospitalar/Desastres). Atuou como Instrutor/Consultor de Segurança e Bombeiro Civil (Classe III). Atualmente é Tutor do Senac EAD (Téc. Segurança do Trabalho) e acadêmico de Medicina.',
+        image: '/images/palestrantes/roberto_alexandre.png'
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example4/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47'
+    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
+    collabLinkLibras: ''
   }
 ];

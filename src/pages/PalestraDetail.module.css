@@ -144,6 +144,17 @@
   text-decoration: none;
 }
 
+.btnCollabLibras {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-4) var(--spacing-8);
+  border-radius: var(--radius-lg);
+  font-weight: 600;
+  transition: all var(--transition-base);
+  text-decoration: none;
+}
+
 .btnInscription {
   background: var(--secondary);
   color: white;
@@ -164,6 +175,18 @@
 .btnCollab:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
+}
+
+.btnCollabLibras {
+  background: rgba(231, 134, 6, 0.637);
+  color: white;
+  border: 2px solid rgb(247, 102, 5);
+}
+
+.btnCollabLibras:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  color: rgb(247, 102, 5);
 }
 
 .speakers {

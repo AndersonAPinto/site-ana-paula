@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { Clock, Users, ArrowLeft, ExternalLink, Video } from 'lucide-react';
+import { Clock, Users, ArrowLeft, Video } from 'lucide-react';
 import { palestras } from '../data/palestra';
 import { SpeakerCard } from '../components/SpeakerCard';
 import styles from './PalestraDetail.module.css';
@@ -20,7 +20,7 @@ export function PalestraDetail() {
     );
   }
 
-  const getPalestraStatus = () => {
+  {/*const getPalestraStatus = () => {
     const hoje = new Date();
     
     // Para testes, descomente uma das linhas abaixo:
@@ -45,7 +45,7 @@ export function PalestraDetail() {
     }
   };
 
-  const statusPalestra = getPalestraStatus();
+  const statusPalestra = getPalestraStatus();*/}
 
   return (
     <div className={styles.detail}>
@@ -91,7 +91,49 @@ export function PalestraDetail() {
             </div>
 
             <div className={styles.cta}>
-              {statusPalestra === 'today' && (
+              {/*<a
+                href={palestra.inscriptionLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.btnInscription}
+              >
+                Se inscrever agora
+                <ExternalLink size={18} />
+              </a>*/}
+              {palestra.day === 24 || palestra.day === 25 ? (
+                <a
+                  href={palestra.collabLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.btnCollab}
+                >
+                  Acessar a gravação
+                  <Video size={18} />
+                </a>
+              ) : (
+                <a
+                  href={palestra.collabLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.btnCollab}
+                >
+                  Acessar a palestra
+                  <Video size={18} />
+                </a>
+              )}
+
+              {(palestra.day === 24 || palestra.day === 25) && (
+                <a
+                  href={palestra.collabLinkLibras}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.btnCollabLibras}
+                >
+                  Acessar a gravação em Libras
+                  <Video size={18} />
+                </a>
+              )}
+              {/*{statusPalestra === 'today' && (
               <a
                 href={palestra.collabLink}
                 target="_blank"
@@ -117,7 +159,7 @@ export function PalestraDetail() {
                 <div className={styles.waitingMessage}>
                   <p>A palestra será disponibilizada no dia {palestra.dateFormatted}</p>
                 </div>
-              )}
+              )}*/}
             </div>
           </div>
         </div>
