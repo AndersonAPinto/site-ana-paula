@@ -368,6 +368,11 @@
     justify-content: center;
   }
 
+  .btnCollabLibras {
+    width: 100%;
+    justify-content: center;
+  }
+
   .moreInfo .container {
     grid-template-columns: 1fr;
   }
