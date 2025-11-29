@@ -122,7 +122,7 @@ export function PalestraDetail() {
                 </a>
               )}
 
-              {(palestra.day === 24 || palestra.day === 25) && (
+              {palestra.day !== 27 && (
                 <a
                   href={palestra.collabLinkLibras}
                   target="_blank"
