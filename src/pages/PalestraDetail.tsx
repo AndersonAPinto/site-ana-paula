@@ -100,7 +100,7 @@ export function PalestraDetail() {
                 Se inscrever agora
                 <ExternalLink size={18} />
               </a>*/}
-              {palestra.day === 24 || palestra.day === 25 ? (
+              {palestra.day !== 28 ? (
                 <a
                   href={palestra.collabLink}
                   target="_blank"
