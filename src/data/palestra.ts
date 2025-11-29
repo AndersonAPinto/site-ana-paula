@@ -107,8 +107,8 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example3/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
-    collabLinkLibras: ''
+    collabLink: 'https://ca.bbcollab.com/collab/ui/session/playback/load/767aceab3c8e43ab8837055de9f1cb7e',
+    collabLinkLibras: 'https://ca.bbcollab.com/collab/ui/session/playback/load/124e8a4bab4a407f885ff71c4ea5a636'
   },
   {
     id: 4,
@@ -137,7 +137,7 @@ export const palestras: Palestra[] = [
       }
     ],
     inscriptionLink: 'https://docs.google.com/forms/d/1example4/viewform',
-    collabLink: 'https://ca.bbcollab.com/guest/4f8b369c2da348c9a7b20bf1256e8c47',
+    collabLink: 'https://ca.bbcollab.com/collab/ui/session/playback/load/abd2adfc6bd9472993e35a48a950366d',
     collabLinkLibras: ''
   }
 ];
